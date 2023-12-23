@@ -11,7 +11,7 @@ const Home = () => {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const isButtonDisabled = value.length < 19 || value.length > 22;
+    const isButtonDisabled = value.length < 17 || value.length > 22;
     setDisabled(isButtonDisabled);
   }, [value]);
 
