@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# About The Project
 
-## Getting Started
+A simple website with which you can supposedly convert the Discord ID of a user to the IP of the user. In reality, however, it is an IP logger.
 
-First, run the development server:
+IMPORTANT, I am not responsible for anything. The website is for demonstration purposes only and I do not encourage anyone to use IP loggers, as storing IPs without the consent of the person is a punishable offense.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Web
+  - [typescript](https://www.npmjs.com/package/typescript)
+  - [React](https://www.npmjs.com/package/react)
+  - [tailwindcss](https://www.npmjs.com/package/tailwindcss)
+  - [Prisma](https://www.npmjs.com/package/prisma)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<!-- GETTING STARTED DEVELOPMENT  -->
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+# Getting Started Development
 
-## Learn More
+This is an example of setting up your project locally.
+To get a local copy up and running follow these simple example steps.
 
-To learn more about Next.js, take a look at the following resources:
+## Prerequisites Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This project requires NodeJS (version 18 or later), Yarn VScode. Node, Yarn and VScode are really easy to install. To make sure you have them available on your machine, try running the following command.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- node
 
-## Deploy on Vercel
+  ```sh
+  node -v
+  v18.5.0
+  ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Installation Development
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Clone the repo
+
+  ```sh
+  git clone https://github.com/Jonaskop44/DiscordID2IP.git
+  cd Adminpanel
+  code .
+  ```
+
+### Web Development
+
+1. install packages
+
+   ```sh
+   npm install
+   ```
+
+2. start dev server
+
+   ```sh
+   npm run dev
+   ```
+
+<!-- ROADMAP -->
+
+# Roadmap
+
+See the [open issues](https://github.com/Jonaskop44/DiscordID2IP/issues) for a list of proposed features (and known issues).
+
+<!-- CONTRIBUTING -->
+
+# Contributing
+
+Any contributions you make are **greatly appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+<!-- CONTACT -->
+
+# Contact
+
+Email - jonas@codeflexx.com
+
+Discord - Jonaskop44
+
+Telegram - [Jonaskop44](https://t.me/Jonaskop44)
